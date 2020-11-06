@@ -6,3 +6,4 @@
 ## 文章
 - bean
     - [propertyEditor: 属性编辑器](./docs/beans/propertyEditor/Readme.md)
+    - [Scope: 作用域接口](/docs/beans/Scope/Readme.md)
