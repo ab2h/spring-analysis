@@ -29,7 +29,7 @@
 在上述类了解后关注 `org.springframework.beans.PropertyEditorRegistrar` 并且了解其实现类 `org.springframework.beans.support.ResourceEditorRegistrar`
 ### 相关文档
 
-- [Spring-PropertyEditorRegistry](./Spring-PropertyEditorRegistry.md)
-- [Spring-PropertyEditorRegistrySupport](./Spring-PropertyEditorRegistrySupport.md)
-- [Spring-PropertyEditorRegistrar](./Spring-PropertyEditorRegistrar.md)
-- [Spring-ResourceEditorRegistrar(./Spring-ResourceEditorRegistrar.md)]
+- [Spring-PropertyEditorRegistry](/docs/beans/propertyEditor/Spring-PropertyEditorRegistry.md)
+- [Spring-PropertyEditorRegistrySupport](/docs/beans/propertyEditor/Spring-PropertyEditorRegistrySupport.md)
+- [Spring-PropertyEditorRegistrar](/docs/beans/propertyEditor/Spring-PropertyEditorRegistrar.md)
+- [Spring-ResourceEditorRegistrar](/docs/beans/propertyEditor/Spring-ResourceEditorRegistrar.md)
