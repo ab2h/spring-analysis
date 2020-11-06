@@ -49,4 +49,4 @@ public interface PropertyEditorRegistrar {
 
 
 
-详细实现方法请查看子类： [ResourceEditorRegistrar](./Spring-ResourceEditorRegistrar.md)
+详细实现方法请查看子类： [ResourceEditorRegistrar](/docs/beans/propertyEditor/Spring-ResourceEditorRegistrar.md)
