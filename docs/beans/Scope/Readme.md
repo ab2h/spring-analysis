@@ -1,5 +1,5 @@
 # Scope 阅读路线
-- 本届主要围绕 Scope 接口做展开, 分析 Scope 接口的作用和子类实现的细节. 其涉及到的类如下  
+- 本节主要围绕 Scope 接口做展开, 分析 Scope 接口的作用和子类实现的细节. 其涉及到的类如下  
     1. `org.springframework.beans.factory.config.Scope`
     2. `org.springframework.web.context.request.AbstractRequestAttributesScope`
     3. `org.springframework.web.context.request.RequestScope`
