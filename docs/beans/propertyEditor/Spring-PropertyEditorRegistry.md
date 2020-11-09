@@ -63,4 +63,4 @@
 
 接下来围绕类图来了解实现方法
 
-- [Spring-PropertyEditorRegistrySupport.md](./Spring-PropertyEditorRegistrySupport.md)
+- [Spring-PropertyEditorRegistrySupport.md](/docs/beans/propertyEditor/Spring-PropertyEditorRegistrySupport.md)
