@@ -7,6 +7,11 @@
 - bean
     - [propertyEditor: 属性编辑器](./docs/beans/propertyEditor/Readme.md)
     - [Scope: 作用域接口](/docs/beans/Scope/Readme.md)
+    - [BeanMetadataElement](/docs/beans/BeanMetadataElement/Readme.md)
+    - [BeanDefinition](/docs/beans/BeanDefinition/Readme.md)
+    - [BeanReference](/docs/beans/BeanMetadataElement/BeanReference/Spring-BeanReference.md)
+    - [Mergeable](/docs/beans/BeanMetadataElement/Mergeable/Readme.md)
+    - [ComponentDefinition](/docs/beans/ComponentDefinition/Readme.md)
 - env
     - [PropertyResolver](/docs/env/PropertyResolver/Readme.md)
 - utils

@@ -16,7 +16,7 @@
   ~
   -->
 
-# Spring propertyEditor
+# Spring propertyEditor 阅读路线
 • 本节主要围绕属性编辑器做展开. 其涉及到的类
 1. org.springframework.beans.PropertyEditorRegistrar
 2. org.springframework.beans.PropertyEditorRegistry

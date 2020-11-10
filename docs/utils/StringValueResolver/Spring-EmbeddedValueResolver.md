@@ -3,6 +3,8 @@
 - 类全路径: `org.springframework.beans.factory.config.EmbeddedValueResolver`
 - 完整代码
     - EmbeddedValueResolver 通过 el 表达式的解析来返回string类型的结果
+    
+    
 ```java
 public class EmbeddedValueResolver implements StringValueResolver {
 
