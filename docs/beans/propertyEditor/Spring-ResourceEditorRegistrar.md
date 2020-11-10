@@ -69,7 +69,8 @@ private void doRegisterEditor(PropertyEditorRegistry registry, Class<?> required
 
 
 
-- 这里主要涉及到`org.springframework.beans.PropertyEditorRegistrySupport`的两个方法 在 [Spring-PropertyEditorRegistrySupport](./Spring-PropertyEditorRegistrySupport.md)
+- 这里主要涉及到`org.springframework.beans.PropertyEditorRegistrySupport`的两个方法 在 [Spring-PropertyEditorRegistrySupport
+](/docs/beans/propertyEditor/Spring-PropertyEditorRegistrySupport.md)
 
 
 
