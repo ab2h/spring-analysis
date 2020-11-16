@@ -13,6 +13,8 @@
     - [BeanReference: bean 连接接口](/docs/beans/BeanMetadataElement/BeanReference/Spring-BeanReference.md)
     - [Mergeable: 合并接口](/docs/beans/BeanMetadataElement/Mergeable/Readme.md)
     - [ComponentDefinition: 组件定义接口](/docs/beans/ComponentDefinition/Readme.md)
+- core
+    - [Convert: 转接接口相关](/docs/core/convert/Readme.md)
 - env
     - [PropertyResolver: 属性解析](/docs/env/PropertyResolver/Readme.md)
 - utils
