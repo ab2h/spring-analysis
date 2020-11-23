@@ -124,7 +124,8 @@ public interface BeanFactory {
 
 - 在 Spring 中 BeanFactory 是一个相当大的一个接口, 其子类,子接口相当多. 需要一步一步了解. 相关子类分析可查看下面这些文档
 
-
+<details>
+<summary>继承关系</summary>
 - [HierarchicalBeanFactory](/docs/beans/factory/BeanFactory/Spring-HierarchicalBeanFactory.md)
     - [ConfigurableBeanFactory](/docs/beans/factory/BeanFactory/Spring-ConfigurableBeanFactory.md)
         - [AbstractBeanFactory](/docs/beans/factory/BeanFactory/Spring-AbstractBeanFactory.md)
@@ -207,3 +208,6 @@ public interface BeanFactory {
     - StaticListableBeanFactory
         - StubBeanFactory
     - ConfigurableListableBeanFactory
+    
+    
+<details>
