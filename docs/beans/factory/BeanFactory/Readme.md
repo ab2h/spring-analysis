@@ -18,6 +18,8 @@
 
 
 ## 方法列表
+<details>
+<summary>详细代码</summary>
 
 ```java
 public interface BeanFactory {
@@ -105,7 +107,7 @@ public interface BeanFactory {
 
 }
 ```
-
+</details>
 
 ## 内部变量
 - 在 `BeanFactory` 中有一个变量: `FACTORY_BEAN_PREFIX`. 用作区分是否是工厂bean. 通常在 bean name 的最前面会有. 
