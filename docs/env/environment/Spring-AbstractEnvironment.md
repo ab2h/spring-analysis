@@ -7,6 +7,10 @@
 
 ## 类属性
 
+下面将介绍`AbstractEnvironment`的属性
+
+<details>
+<summary>类属性</summary>
 
 
 ```java
@@ -78,6 +82,7 @@ private final MutablePropertySources propertySources = new MutablePropertySource
 ```
 
 
+</details>
 
 
 

@@ -5,7 +5,8 @@
 
 - 全路径: `org.springframework.core.env.CompositePropertySource`
 
-- 整体代码如下
+<details>
+<summary>完整代码</summary>
 ```java
 public class CompositePropertySource extends EnumerablePropertySource<Object> {
 
@@ -103,3 +104,4 @@ public class CompositePropertySource extends EnumerablePropertySource<Object> {
 
 }
 ```
+</details>

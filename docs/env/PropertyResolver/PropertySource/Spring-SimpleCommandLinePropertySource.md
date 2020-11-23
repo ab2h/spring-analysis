@@ -68,7 +68,8 @@ public Set<String> getOptionNames() {
 
 - 其他方法不具体描述了，各位可以查看下面的代码
 
-
+<details>
+<summary>CommandLineArgs</summary>
 
 ```java
 class CommandLineArgs {
@@ -143,6 +144,7 @@ class CommandLineArgs {
 ```
 
 
+</details>
 
 
 

@@ -23,6 +23,10 @@
 
 - 首先来了解一下成员变量都有那些, 分别代表了什么. 
 
+
+<details>
+<summary>成员变量分析</summary>
+
 ```java
 /**
  *
@@ -159,6 +163,7 @@ private volatile boolean hasDestructionAwareBeanPostProcessors;
 @Nullable
 private SecurityContextProvider securityContextProvider;
 ```
+</details>
 
 
 
@@ -724,9 +729,8 @@ if (object == null) {
 
 详细各个方法的分析查看下面文章. 
 
-
-
-- 完整代码如下
+<details>
+<summary>完整代码如下</summary>
 
 ```java
 protected Object getObjectForBeanInstance(
@@ -780,6 +784,7 @@ protected Object getObjectForBeanInstance(
    return object;
 }
 ```
+</details>
 
 
 
@@ -909,8 +914,8 @@ return (!BeanFactoryUtils.isFactoryDereference(name) || isFactoryBean(name));
 
 
 
-
-- 方法完整代码如下
+<details>
+<summary>方法完整代码如下</summary>
 
 ```java
 @Override
@@ -931,6 +936,7 @@ public boolean containsBean(String name) {
 }
 ```
 
+</details>
 
 
 
@@ -993,7 +999,8 @@ if (parentBeanFactory != null && !containsBeanDefinition(beanName)) {
 
 
 
-
+<details>
+<summary>父工厂判断是否单例</summary>
 
 ```java
 RootBeanDefinition mbd = getMergedLocalBeanDefinition(beanName);
@@ -1018,6 +1025,7 @@ else {
    return false;
 }
 ```
+</details>
 
 获取 合并后的 BeanDefinition 对象. 
 
@@ -1036,8 +1044,8 @@ else {
 
 
 
-
-- 完整方法代码如下
+<details>
+<summary>完整方法代码如下</summary>
 
 ```java
 @Override
@@ -1097,6 +1105,7 @@ public boolean isSingleton(String name) throws NoSuchBeanDefinitionException {
 }
 ```
 
+</details>
 
 
 
@@ -1106,6 +1115,10 @@ public boolean isSingleton(String name) throws NoSuchBeanDefinitionException {
 - 方法作用: 判断是否是原型模式
 
 `isPrototype` 和 `isSingleton` 的判断方式类似, 这里不对`isPrototype` 做详细分析, 下面直接贴出代码及注释请各位自行阅读. 
+
+
+<details>
+<summary>完整代码</summary>
 
 ```java
 @Override
@@ -1159,6 +1172,7 @@ public boolean isPrototype(String name) throws NoSuchBeanDefinitionException {
 }
 ```
 
+</details>
 
 
 
@@ -1343,7 +1357,8 @@ return typeToMatch.isInstance(beanInstance);
 
 回到方法主线上看下面这段代码
 
-
+<details>
+<summary>主方法流程</summary>
 
 ```java
 else if (!isFactoryDereference) {
@@ -1386,6 +1401,9 @@ else if (!isFactoryDereference) {
    }
 }
 ```
+
+</details>
+
 
 开头的几行代码就不做展开了直接从下面这个`else if` 开始
 
@@ -2060,8 +2078,9 @@ protected ResolvableType getTypeForFactoryBean(String beanName, RootBeanDefiniti
 
 
 
+<details>
+<summary>`isTypeMatch`方法得最后一段</summary>
 
-`isTypeMatch`方法得最后一段
 
 ```java
 else if (isFactoryDereference) {
@@ -2095,6 +2114,9 @@ if (beanType != null) {
 // If we don't have a bean type, fallback to the predicted type
 return typeToMatch.isAssignableFrom(predictedType);
 ```
+
+</details>
+
 
 1. 是否是 `&` 开始
    1. 推测类型 , 
@@ -2291,9 +2313,10 @@ if (mbd == null || mbd.stale) {
 
 
 
-在父名称存在的情况下执行的代码如下
 
 
+<details>
+<summary>在父名称存在的情况下执行的代码如下</summary>
 
 ```java
 else {
@@ -2337,6 +2360,7 @@ else {
 }
 ```
 
+</details>
 
 
 - 在这段代码的开始定义了 pbd (**ParentBeaanDefinition**), 这个方法大部分是在获取 **ParentBeaanDefinition**

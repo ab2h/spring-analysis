@@ -87,7 +87,8 @@ public ResourcePropertySource(String name, EncodedResource resource) throws IOEx
 
 
 
-## 完整代码
+<details>
+<summary>完整代码</summary>
 
 ```java
 public class ResourcePropertySource extends PropertiesPropertySource {
@@ -239,3 +240,5 @@ public class ResourcePropertySource extends PropertiesPropertySource {
 
 }
 ```
+
+</details>

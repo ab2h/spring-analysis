@@ -4,7 +4,8 @@
 
 
 
-
+<details>
+<summary>接口详细</summary>
 
 ```java
 public interface Environment extends PropertyResolver {
@@ -64,6 +65,7 @@ public interface Environment extends PropertyResolver {
 
 }
 ```
+<details>
 
 
 
