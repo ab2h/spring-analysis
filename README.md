@@ -34,6 +34,12 @@
     - [Spring-PropertyEditorRegistrar](/docs/beans/propertyEditor/Spring-ResourceEditorRegistrar.md)
     - [Spring-ResourceEditorRegistrar](/docs/beans/propertyEditor/Spring-ResourceEditorRegistrar.md)
     
+### BeanInfoFactory 相关接口分析
+- [BeanInfoFactory](/docs/beans/BeanInfoFactory/readme.md)
+    - [Spring-BeanInfoFactory](/docs/beans/BeanInfoFactory/Spring-BeanInfoFactory.md)
+    - [Spring-ExtendedBeanInfo](/docs/beans/BeanInfoFactory/Spring-ExtendedBeanInfo.md)
+    - [Spring-ExtendedBeanInfoFactory](/docs/beans/BeanInfoFactory/Spring-ExtendedBeanInfoFactory.md)
+    
 #### Spring Scope 相关接口分析
 
 - [Scope作用域接口](/docs/beans/Scope/Readme.md)

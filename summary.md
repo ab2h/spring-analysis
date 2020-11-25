@@ -1,4 +1,8 @@
 - Spring Bean
+    - [BeanInfoFactory](/docs/beans/BeanInfoFactory/readme.md)
+        - [Spring-BeanInfoFactory](/docs/beans/BeanInfoFactory/Spring-BeanInfoFactory.md)
+        - [Spring-ExtendedBeanInfo](/docs/beans/BeanInfoFactory/Spring-ExtendedBeanInfo.md)
+        - [Spring-ExtendedBeanInfoFactory](/docs/beans/BeanInfoFactory/Spring-ExtendedBeanInfoFactory.md)
     - [propertyEditor属性接口](/docs/beans/propertyEditor/Readme.md)
         - [Spring-PropertyEditorRegistry](/docs/beans/propertyEditor/Spring-ResourceEditorRegistrar.md)
         - [Spring-PropertyEditorRegistrySupport](/docs/beans/propertyEditor/Spring-ResourceEditorRegistrar.md)
