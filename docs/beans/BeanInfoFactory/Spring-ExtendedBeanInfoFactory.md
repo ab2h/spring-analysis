@@ -27,7 +27,7 @@
 </details>
 
 在 `getBeanInfo` 中出现了 `supports`来判断是否支持创建`BeanInfo`接口. 以及一个 `BeanInfo`接口的实现类`ExtendedBeanInfo`
-    有关 `ExtendedBeanInfo` 可以查看: [这篇文章](Spring-ExtendedBeanInfo.md)
+    有关 `ExtendedBeanInfo` 可以查看: [这篇文章](/docs/beans/BeanInfoFactory/Spring-ExtendedBeanInfo.md)
     
     
 
