@@ -55,6 +55,10 @@
 
     - [GenericTypeAwarePropertyDescriptor](/docs/beans/GenericTypeAwarePropertyDescriptor/Spring-GenericTypeAwarePropertyDescriptor.md)
     
+    - [CachedIntrospectionResults](/docs/beans/CachedIntrospectionResults/Readme.md)
+        - [CachedIntrospectionResults](/docs/beans/CachedIntrospectionResults/Spring-CachedIntrospectionResults.md)
+
+    
     
 - Spring Core
     - registry

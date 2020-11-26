@@ -97,6 +97,13 @@
 
 - [GenericTypeAwarePropertyDescriptor](/docs/beans/GenericTypeAwarePropertyDescriptor/Spring-GenericTypeAwarePropertyDescriptor.md)
 
+
+
+#### Spring CachedIntrospectionResults 相关接口分析
+- [CachedIntrospectionResults](/docs/beans/CachedIntrospectionResults/Spring-CachedIntrospectionResults.md)
+
+    
+
 ### SpringCore相关分析
 #### Spring Registry 相关分析
 
