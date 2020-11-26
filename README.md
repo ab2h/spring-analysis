@@ -93,6 +93,9 @@
     - [AutowireCapableBeanFactory](/docs/beans/factory/BeanFactory/Spring-AutowireCapableBeanFactory.md)
     - [ListableBeanFactory](/docs/beans/factory/BeanFactory/Spring-ListableBeanFactory.md)
 
+#### Spring GenericTypeAwarePropertyDescriptor 相关接口分析
+
+- [GenericTypeAwarePropertyDescriptor](/docs/beans/GenericTypeAwarePropertyDescriptor/Spring-GenericTypeAwarePropertyDescriptor.md)
 
 ### SpringCore相关分析
 #### Spring Registry 相关分析
