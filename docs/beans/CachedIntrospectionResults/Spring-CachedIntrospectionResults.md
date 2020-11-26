@@ -206,7 +206,7 @@ private static BeanInfo getBeanInfo(Class<?> beanClass) throws IntrospectionExce
 
 </details>
 
-- 在这里牵扯到 BeanInfoFactory 相关分析, 详细可以查看[这篇文章](/doc/book/bean/BeanInfoFactory/Spring-BeanInfoFactory.md)
+- 在这里牵扯到 BeanInfoFactory 相关分析, 详细可以查看[这篇文章](/docs/beans/BeanInfoFactory/Spring-BeanInfoFactory.md)
 
 ### introspectInterfaces
 
@@ -283,7 +283,7 @@ private PropertyDescriptor buildGenericTypeAwarePropertyDescriptor(Class<?> bean
 
 在上述方法外还有两个方法, 接下来我们对身下的两个方法进行分析
 
-这里的 `GenericTypeAwarePropertyDescriptor`详细分析可以查看 [这篇文章](/doc/book/bean/GenericTypeAwarePropertyDescriptor/Spring-GenericTypeAwarePropertyDescriptor.md)
+这里的 `GenericTypeAwarePropertyDescriptor`详细分析可以查看 [这篇文章](/docs/beans/GenericTypeAwarePropertyDescriptor/Spring-GenericTypeAwarePropertyDescriptor.md)
 
 
 
